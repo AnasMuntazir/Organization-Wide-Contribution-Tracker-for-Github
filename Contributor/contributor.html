@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contributor Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="contributor.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark px-4">
+    <a class="navbar-brand text-purple" href="#">Contribution Tracker</a>
+    <span class="navbar-text text-light">Contributor Profile</span>
+  </nav>
+
+  <div class="container-fluid p-4 bg-dark text-white">
+    <!-- Back Button -->
+    <a href="repository.html" class="btn btn-purple mb-4">&larr; Back to Repository</a>
+
+    <!-- Contributor Info Card -->
+    <div class="card bg-charcoal text-white mb-4 p-3 d-flex flex-row align-items-center">
+      <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Profile Pic" class="rounded-circle me-4" width="100" height="100">
+      <div>
+        <h3 class="text-purple">Anas Muntazir</h3>
+        <p>GitHub: <a href="https://github.com/octocat" target="_blank" class="text-light">github.com/octocat</a></p>
+      </div>
+    </div>
+
+    <!-- Contribution Breakdown -->
+    <div class="card bg-charcoal text-white mb-4">
+      <div class="card-header bg-purple">Contribution Summary</div>
+      <div class="card-body row text-center">
+        <div class="col">
+          <h4 class="text-purple">42</h4>
+          <p>Commits</p>
+        </div>
+        <div class="col">
+          <h4 class="text-purple">7</h4>
+          <p>Pull Requests</p>
+        </div>
+        <div class="col">
+          <h4 class="text-purple">2</h4>
+          <p>Issues</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contribution History Graph -->
+    <div class="card bg-charcoal text-white mb-4">
+      <div class="card-header bg-purple">Contribution History</div>
+      <div class="card-body">
+        <img src="https://dummyimage.com/600x300/8000ff/ffffff&text=Line+Chart+Placeholder" class="img-fluid" alt="Contribution Chart">
+        <p class="mt-2 text-muted">Weekly or monthly graph showing contributions over time.</p>
+      </div>
+    </div>
+
+    <!-- Repositories Contributed -->
+    <div class="card bg-charcoal text-white mb-4">
+      <div class="card-header bg-purple">Repositories Contributed</div>
+      <ul class="list-group list-group-flush bg-charcoal">
+        <li class="list-group-item bg-charcoal text-light">Frontend</li>
+        <li class="list-group-item bg-charcoal text-light">Backend API</li>
+        <li class="list-group-item bg-charcoal text-light">Documentation</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="text-center text-light p-3 bg-dark mt-5">
+    &copy; 2025 GitHub Contribution Tracker
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
