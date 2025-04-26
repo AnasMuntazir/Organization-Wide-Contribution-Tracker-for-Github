@@ -1,0 +1,48 @@
+.repositories {
+    padding: 40px;
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .text-purple {
+    color: #8000FF;
+    margin-bottom: 30px;
+  }
+  
+  .repo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .repo-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #8000ff22;
+    border-left: 4px solid #8000FF;
+    transition: transform 0.2s;
+  }
+  
+  .repo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px #8000ff55;
+  }
+  
+  .repo-card button {
+    margin-top: 10px;
+    background-color: #8000FF;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .repo-card button:hover {
+    background-color: #5e00bd;
+  }
+  

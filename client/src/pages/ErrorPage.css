@@ -1,0 +1,42 @@
+.error-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .error-page h1 {
+    font-size: 100px;
+    margin: 0;
+    color: #8000FF;
+  }
+  
+  .error-page h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .error-page p {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+  
+  .error-btn {
+    padding: 10px 20px;
+    background-color: #8000FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  .error-btn:hover {
+    background-color: #5e00bd;
+  }
+  

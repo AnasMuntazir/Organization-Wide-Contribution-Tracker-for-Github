@@ -1,0 +1,37 @@
+.dashboard {
+    padding: 40px;
+    color: white;
+    background-color: #121212;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .profile-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #8000ff66;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .stats h3, .stats h4 {
+    color: #8000FF;
+  }
+  
+  .repo-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .repo-list li {
+    background-color: #2b2b2b;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #8000FF;
+  }

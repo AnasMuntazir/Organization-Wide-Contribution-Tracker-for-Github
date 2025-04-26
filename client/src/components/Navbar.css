@@ -1,0 +1,14 @@
+.text-purple {
+    color: #8000FF !important;
+  }
+  
+  .navbar .nav-link {
+    color: #ccc;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #8000FF;
+    text-decoration: underline;
+  }
+  
